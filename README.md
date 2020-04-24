@@ -3,7 +3,7 @@
 https://github.com/protocolbuffers/protobuf/releases/tag/v3.0.0
 找到自己系統相對應的，下載之後解壓縮，然後將解壓縮的後的檔案放置任意目錄中，之後將bin/檔案丟至系統路徑 $PATH，這樣我們就能夠在終端機執行protoc.exe的功能。
 ## 2.套件安裝
-code(go get -u github.com/golang/protobuf/{proto,protoc-gen-go})
+```go get -u github.com/golang/protobuf/{proto,protoc-gen-go}```
 
 ## 3.Protobuf文件宣告 (.proto)
 code (
