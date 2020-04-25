@@ -30,7 +30,8 @@ gogo/protobuf 是基於官方 protobuf 的衍生分歧，當初選用的原因�
 
 ## 5.與 JSON 比較，Protocol Buffers 有這些優點
 
-```message User {  
+```
+message User {  
     string username = 1;
     string password = 2;
 }
